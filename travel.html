@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- internal styling -->
+    <style>
+        .tips-section h3 {
+            color: #ff5722;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="locations.html">Destinations</a>
+        </nav>
+    <div class="h1">
+        <h1>Travel Tips & Itinerary</h1>
+    </div>
+    <div class="container">
+        <section class="tips-section">
+            <h2>Travel Tips</h2>
+            <div class="tips-section">
+                <div class="tip">
+                    <h3>Tip 1</h3>
+                    <p>Always pack light to make trvaeling easier and less stressful</p>
+                </div>
+                <div class="tip">
+                    <h3>Tip 2</h3>
+                    <p>Kepp a copy of important documents in case of emergencies.</p>
+                <div class="tip">
+                    <h3>Tip 3</h3>
+                    <p>Book your accomodations and tickets in advance for better deals.</p>
+                </div>
+            </div>
+        </section>
+        <section class="itinerary-section">
+            <!-- inline styling -->
+            <h2 style="color: #007BFF; font-size: 2em; text-shadow: 1px 1px 2px gray;">Popular Destinations</h2>
+            <form action="" method="post">
+                <label for="travel-dates">Travel Dates:</label>
+                <input type="date" id="travel-dates" name="travel-dates" required>
+                <br>
+                <label for="activitiess">Preferred Activites:</label>
+                <input type="activities" id="activities" rows="4" placeholder="Enter activities..." required>
+                <br>
+                <label for="budget">Estimated Budget:</label>
+                <input type="number" id="budget" name="travel-dates" placeholder="Enter amount in USD" required>
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

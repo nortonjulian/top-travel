@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .table-section table tr:hover {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="travel.html">Itinerary</a>
+        </nav>
+    <div class="h1">
+        <h1>Destinations</h1>
+    </div>
+    <div class="container">
+        <section>
+            <div class="h2">
+                <h2>Popular Destinations</h2>
+            </div>
+                <div class="table-section">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Destination Name</th>
+                                <th>Location</th>
+                                <th>Best Time to Visit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Maldives</td>
+                                <td>Indian Ocean</td>
+                                <td>Novermber to April</td>
+                            </tr>
+                            <tr>
+                                <td>Greek Islands</td>
+                                <td>Greece</td>
+                                <td>September to October</td>
+                            </tr>
+                            <tr>
+                                <td>Norwegian Fjords</td>
+                                <td>Norway</td>
+                                <td>June to August</td>
+                            </tr>
+                            <tr>
+                                <td>Amalfi coast</td>
+                                <td>Italy</td>
+                                <td>April to May</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="first-section">
+            <h2>Share Your Favorite Destination</h2>
+            <form action="#" method="post">
+                <label for="destination">Destination Name:</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter a destination" required>
+                <br>
+                <label for="region">Select Region:</label>
+                <select id="region" name="region" required>
+                    <option value="">--Choose a Region--</option>
+                    <option value="north">North</option>
+                    <option value="north-east">North East</option>
+                    <option value="north-west">North West</option>
+                    <option value="south">South</option>
+                    <option value="south-east">South East</option>
+                    <option value="south-west">South West</option>
+                    <option value="east">East</option>
+                    <option value="west">West</option>
+                </select>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <div class="second-section">
+            <section>
+                <h2>Filter by Type</h2>
+                <label for="destination-type">Choose a Destination Type:</label>
+                <select name="destination-type" id="destination-type">
+                    <option value="beach">Beach</option>
+                    <option value="mountain">Mountain</option>
+                    <option value="city">City</option>
+                    <option value="forest">Forest</option>
+                    <option value="desert">Desert</option>
+                </select>
+            </section>
+        </div>
+
+    </div>
+</body>
+</html>
